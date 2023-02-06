@@ -25,6 +25,17 @@
                         <div class="product-description">Ingredienti: <?php echo $product->product_ingredients; ?></div>
                     </div>
                 <?php } ?>
+                <?php foreach($products_product as $product){ ?>
+                    <div class="card">
+                        <img src="<?php echo $product->product_photo; ?>">
+                        <div class="product-title"><?php echo $product->product_name; ?></div>
+                        <div class="product-description"><?php echo $product->product_breed; ?></div>
+                        <div class="product-description">Prezzo: <?php echo $product->product_price; ?></div>
+                        <div class="product-description">Peso netto: <?php echo $product->product_material; ?></div>
+                        <div class="product-description">Ingredienti: <?php echo $product->product_size; ?></div>
+                    </div>
+                <?php } ?>
+                
                 
             </div>
         </div>
