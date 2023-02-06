@@ -6,24 +6,11 @@
         public $product_size;
     }
 
-    // Nome tipo material
-    public function SetProductMaterial($product_material)
+    public function __construct($product_name, $product_breed, $product_price, $product_material, $product_size)
     {
+        parent:: __construct($product_name, $product_breed, $product_price)
         $this->product_material = $product_material;
-    }
-    public function GetProductMaterial()
-    {
-        return $this->product_material;
-    }
-    
-    // misure oggetto
-    public function SetProductSize($product_size)
-    {
         $this->product_size = $product_size;
-    }
-    public function GetProductSize()
-    {
-        return $this->product_size;
     }
 
 ?>

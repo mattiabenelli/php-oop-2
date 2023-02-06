@@ -6,24 +6,11 @@
         public $product_ingredients;
     }
 
-    // Nome tipo material
-    public function SetProductWeight($product_weight)
+    public function __construct($product_name, $product_breed, $product_price, $product_weight, $product_ingredients)
     {
+        parent:: __construct($product_name, $product_breed, $product_price)
         $this->product_weight = $product_weight;
-    }
-    public function GetProductWeight()
-    {
-        return $this->product_weight;
-    }
-    
-    // misure oggetto
-    public function SetProductIngredients($product_ingredients)
-    {
         $this->product_ingredients = $product_ingredients;
-    }
-    public function GetProductIngredients()
-    {
-        return $this->product_ingredients;
     }
 
 ?>
