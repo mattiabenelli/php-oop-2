@@ -1,6 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-title {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.product-description {
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
 .wrapper {
     width: 50%;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
 .row {

@@ -16,5 +16,6 @@ include __DIR__ .'/models/AnimalProducts.php';
     $products_product = [$product_1_product, $product_2_product];
     
     $product_1_game = new AnimalGame('https://th.bing.com/th/id/OIP.1a6Zea-x4mcC2EG_eMrskgHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7', 'Kong Classic', '<i class="fa-solid fa-dog"></i> Cane', '$13,49', 'Galleggia e rimbalza', '8,5 cm x 10 cm');
-    
+    $product_2_game = new AnimalGame('https://th.bing.com/th/id/OIP.bZEJYOQHe3oIEgKogr-qXAAAAA?w=216&h=216&c=7&r=0&o=5&pid=1.7', 'Topini di peluche Trixie', '<i class="fa-solid fa-cat"></i> Gatto', '$4,99', 'Morbido con codina in corda', '8,5 cm x 10 cm');
+    $products_games = [$product_1_game, $product_2_game];
 ?>
