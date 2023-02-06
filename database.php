@@ -9,6 +9,7 @@ include __DIR__ .'/models/AnimalProducts.php';
     $product_2_food = new AnimalFood('Almo Nature Holistic Maintenance Medium Large Tonno e Riso', 'Cane', '$44,99', '600g', 'manzo, cereali');
     $product_3_food = new AnimalFood('Almo Nature Car Daily Lattina', 'Gatto', '$34,99', '400g', 'tonno, pollo, prosciutto');
     $product_4_food = new AnimalFood('Mangime per Pesci Guppy in Fiocchi', 'Gatto', '$2,95', '30g', 'pesci e sottoprodotti dei pesci, cereali, lieviti, alghe');
+    $products_food = [$product_1_food, $product_2_food, $product_3_food, $product_4_food];
     
     
     $product_1_product = new AnimalProducts('Voliera Wilma in Legno', 'uccel', '$184,99', 'legno', 'M: L 83 x P 67 x H 153 cm');
