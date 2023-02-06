@@ -1,0 +1,20 @@
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.card img {
+    height: 200px;
+}
